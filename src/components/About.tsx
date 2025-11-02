@@ -1,6 +1,6 @@
 import { Card } from "@/components/ui/card";
 import { Award, MapPin, Heart, Languages } from "lucide-react";
-import smileImage from "@/assets/smile-patient.jpg";
+import smileImage from "@/assets/dental-office-reception.png";
 
 const features = [
   {
