@@ -40,6 +40,7 @@ const Hero = () => {
               size="lg"
               variant="outline"
               className="text-lg px-8 border-primary text-primary hover:bg-primary/10"
+              onClick={() => window.location.href = 'tel:+35226262046'}
             >
               <Phone className="mr-2 h-5 w-5" />
               Nous contacter
