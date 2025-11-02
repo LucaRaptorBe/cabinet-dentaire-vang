@@ -29,7 +29,7 @@ const About = () => {
   return (
     <section id="about" className="py-20 bg-background">
       <div className="container mx-auto px-4">
-        <div className="grid lg:grid-cols-2 gap-12 items-center">
+        <div className="grid lg:grid-cols-2 gap-12 items-stretch">
           <div>
             <h2 className="text-4xl font-bold text-foreground mb-6">
               Un cabinet à votre écoute
@@ -52,12 +52,12 @@ const About = () => {
             </div>
           </div>
 
-          <div className="relative">
-            <div className="rounded-2xl overflow-hidden shadow-2xl">
-              <img 
-                src={smileImage} 
-                alt="Patient souriant" 
-                className="w-full h-auto"
+          <div className="relative h-full">
+            <div className="rounded-2xl overflow-hidden shadow-2xl h-full">
+              <img
+                src={smileImage}
+                alt="Patient souriant"
+                className="w-full h-full object-cover"
               />
             </div>
             <div className="absolute -bottom-6 -right-6 w-48 h-48 bg-gradient-to-br from-primary to-accent rounded-2xl -z-10 blur-3xl opacity-30" />
